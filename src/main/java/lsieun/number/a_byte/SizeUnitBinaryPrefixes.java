@@ -1,4 +1,4 @@
-package lsieun.number.byt3;
+package lsieun.number.a_byte;
 
 import java.util.Arrays;
 import java.util.Collections;

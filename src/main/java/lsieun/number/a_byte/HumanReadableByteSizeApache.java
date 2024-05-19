@@ -1,8 +1,8 @@
-package lsieun.number.byt3;
+package lsieun.number.a_byte;
 
 import org.apache.commons.io.FileUtils;
 
-import static lsieun.number.byt3.HumanReadableData.DATA_MAP_BINARY_PREFIXES;
+import static lsieun.number.a_byte.HumanReadableData.DATA_MAP_BINARY_PREFIXES;
 
 public class HumanReadableByteSizeApache {
     public static void main(String[] args) {

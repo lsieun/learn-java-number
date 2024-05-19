@@ -1,9 +1,9 @@
-package lsieun.number.byt3;
+package lsieun.number.a_byte;
 
 import java.text.DecimalFormat;
 import java.util.List;
 
-import static lsieun.number.byt3.HumanReadableData.DATA_MAP_BINARY_PREFIXES;
+import static lsieun.number.a_byte.HumanReadableData.DATA_MAP_BINARY_PREFIXES;
 
 @SuppressWarnings("all")
 public class HumanReadableByteSizeEnum {

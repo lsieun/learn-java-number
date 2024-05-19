@@ -1,12 +1,12 @@
-package lsieun.number.byt3;
+package lsieun.number.a_byte;
 
 import java.text.DecimalFormat;
 import java.util.Map;
 import java.util.function.Function;
 
-import static lsieun.number.byt3.HumanReadableData.DATA_MAP_BINARY_PREFIXES;
-import static lsieun.number.byt3.HumanReadableData.DATA_MAP_SI_PREFIXES;
-import static lsieun.number.byt3.HumanReadableConst.*;
+import static lsieun.number.a_byte.HumanReadableData.DATA_MAP_BINARY_PREFIXES;
+import static lsieun.number.a_byte.HumanReadableData.DATA_MAP_SI_PREFIXES;
+import static lsieun.number.a_byte.HumanReadableConst.*;
 
 public class HumanReadableByteSize {
     private static final DecimalFormat DEC_FORMAT = new DecimalFormat("#.##");

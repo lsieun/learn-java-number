@@ -1,8 +1,6 @@
-package lsieun.number.d0uble;
+package lsieun.number.d_double;
 
-import com.google.common.math.DoubleMath;
-
-public class ComparingDoubleGuava {
+public class ComparingDoubleJDK {
     public static void main(String[] args) {
         double d1 = 0;
         for (int i = 1; i <= 8; i++) {
@@ -15,7 +13,7 @@ public class ComparingDoubleGuava {
         System.out.println(d2);
 
         double epsilon = 0.000001d;
-        boolean flag = DoubleMath.fuzzyEquals(d1, d2, epsilon);
+        boolean flag = Math.abs(d1 - d2) < epsilon;
         System.out.println("equals: " + flag);
     }
 }

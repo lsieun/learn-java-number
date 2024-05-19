@@ -1,4 +1,4 @@
-package lsieun.number.d0uble;
+package lsieun.number.d_double;
 
 import org.apache.commons.math3.util.Precision;
 

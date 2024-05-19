@@ -1,4 +1,4 @@
-package lsieun.number.byt3;
+package lsieun.number.a_byte;
 
 public class HumanReadableConst {
     public static final long BYTE = 1L;
